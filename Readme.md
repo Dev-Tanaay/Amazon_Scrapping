@@ -50,7 +50,7 @@ PORT=&lt;desired port&gt;
     </ol>
     <h2>API Endpoints</h2>
     <ul>
-        <li><strong>GET `/`</strong> → Fetch stored products.</li>
+        <li><strong>GET `/products`</strong> → Fetch stored products.</li>
         <li><strong>POST `/scrape`</strong> → Scrape Amazon product details (Requires <code>{ "url": "&lt;amazon-product-url&gt;" }</code> in request body).</li>
     </ul>
 </body>
