@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazon Product Scraper API - README</title>
 </head>
 <body>
     <h1>Amazon Product Scraper API</h1>
@@ -19,7 +18,6 @@
         <li>Uses <strong>async/await</strong> for smooth database queries.</li>
         <li>Secure configuration via <strong>dotenv</strong> for environment variables.</li>
     </ul>
-
     <h2>Tech Stack</h2>
     <ul>
         <li><strong>Node.js</strong></li>
@@ -30,7 +28,6 @@
         <li><strong>Cors</strong></li>
         <li><strong>Dotenv</strong></li>
     </ul>
-
     <h2>How to Run</h2>
     <ol>
         <li>Clone the repository:
@@ -51,15 +48,10 @@ PORT=&lt;desired port&gt;
             <pre><code>npm start</code></pre>
         </li>
     </ol>
-
     <h2>API Endpoints</h2>
     <ul>
         <li><strong>GET `/`</strong> → Fetch stored products.</li>
         <li><strong>POST `/scrape`</strong> → Scrape Amazon product details (Requires <code>{ "url": "&lt;amazon-product-url&gt;" }</code> in request body).</li>
     </ul>
-
-    <h2>License</h2>
-    <p>This project is open-source and free to use.</p>
-
 </body>
 </html>
